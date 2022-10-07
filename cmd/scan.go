@@ -71,7 +71,7 @@ var (
 					util.PrintInfo("Ecosystems detected:", strings.Join(ecosystems, ","))
 					util.PrintInfof("Scanning %v packages for vulnerabilities...\n", len(purls))
 					util.PrintInfo("Vulnerability Provider:", provider.Info(), "\n")
-					s.Suffix = fmt.Sprintf(" Fetching vulnerability data from %s", providerName)
+					s.Suffix = fmt.Sprintf(" Fetching vulnerability data from %s\n", providerName)
 					s.Start()
 				})
 

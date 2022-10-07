@@ -27,7 +27,7 @@ There are quite a few SBOM formats available today. ```bomber``` supports the fo
 
 ## Providers
 
-```bomber``` supports multiple sources for vulnerability information. We call these *providers*. Currently, ```bomber``` uses [OSV](https://osv.dev) as the default provider, but you can also use the [Sonatype OSS Index](https://ossindex.sonatype.org). 
+```bomber``` supports multiple sources for vulnerability information. We call these *providers*. Currently, ```bomber``` uses [OSV](https://osv.dev) as the default provider, but you can also use the [Sonatype OSS Index](https://ossindex.sonatype.org) or the [Snyk Vulnerability DB](https://security.snyk.io).
 
 Please note that *each provider supports different ecosystems*, so if you're not seeing any vulnerabilities in one, try another. It is also important to understand that each provider may report different vulnerabilities. If in doubt, look at a few of them.
 
